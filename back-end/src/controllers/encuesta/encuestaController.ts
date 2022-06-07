@@ -20,8 +20,7 @@ export class controllerEncuesta {
           .send({
             msg: "error de consulta",
             code: 500,
-            
-          });
+                      });
       }
     } catch (e) {
       console.log(e);

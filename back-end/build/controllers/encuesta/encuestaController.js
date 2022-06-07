@@ -118,7 +118,7 @@ var controllerEncuesta = /** @class */ (function () {
                         _a.trys.push([0, 2, , 3]);
                         pregunta = req.body.pregunta;
                         results = void 0;
-                        sql = "INSERT INTO pregunta (pregunta) VALUES(" + pregunta + ");";
+                        sql = "INSERT INTO pregunta (pregunta) VALUES(".concat(pregunta, ");");
                         return [4 /*yield*/, exe.query(sql)];
                     case 1:
                         results = _a.sent();

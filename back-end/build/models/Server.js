@@ -57,7 +57,7 @@ var Server = /** @class */ (function () {
             this.app.listen(this.PORT, function () {
                 //  logger.info("Generando Basic Authorization Token de SrPago");
                 //  process.env.SRPAGO_BASIC_AUTHORIZATION_TOKEN = "Basic " + Buffer.from(`${process.env.SRPAGO_PRIVATE_DEV_KEY} ${process.env.SRPAGO_SECRET_KEY}`).toString("base64");
-                log4jsLogger_1.default.info("Servidor de " + process.env.NODE_ENV + " corriendo en el puerto " + _this.PORT);
+                log4jsLogger_1.default.info("Servidor de ".concat(process.env.NODE_ENV, " corriendo en el puerto ") + _this.PORT);
             });
         }
         catch (error) {

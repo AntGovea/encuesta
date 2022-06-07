@@ -29,7 +29,7 @@ var Excecute = /** @class */ (function () {
                                 if (error) {
                                     console.log(sentencial_sql);
                                     console.log('error al ejecuatr sentencia slq');
-                                    console.log("*******************************" + sentencial_sql + "****************************");
+                                    console.log("*******************************".concat(sentencial_sql, "****************************"));
                                     console.log(error.message);
                                     return resolve({
                                         validacion: false,

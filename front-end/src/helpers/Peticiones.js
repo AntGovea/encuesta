@@ -1,7 +1,7 @@
 
 
 
-let url = `http://localhost:8081/api/preguntas/`;
+let url = `http://localhost:8082/api/preguntas/`;
 
 export const addQuestion = async (question) => {
   try {
