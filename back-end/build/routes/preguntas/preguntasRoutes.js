@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.router = void 0;
+var encuestaController_1 = require("@controllers/encuesta/encuestaController");
+var express_1 = require("express");
+var encuesta = new encuestaController_1.controllerEncuesta();
+exports.router = (0, express_1.Router)();
+exports.router.post("/test", encuesta.test);
+exports.router.post("/getAll", encuesta.getPreguntas);
+exports.router.post("/add", encuesta.addQuestions);

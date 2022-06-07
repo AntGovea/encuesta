@@ -1,0 +1,29 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"module": "commonjs",
+		"baseUrl": "./src",
+		"outDir": "./build",
+		"strict": true,
+		"paths": {
+			"@config/*": ["config/*"],
+			"@controllers/*": ["controllers/*"],
+			"@database/*": ["db/*"],
+			"@helpers/*": ["helpers/*"],
+			"@models/*": ["models/*"],
+			"@routers/*": ["routers/*"],
+			"@routes/*": ["routes/*"],
+			"@static/*": ["static/*"],
+			"@utils/*": ["utils/*"],
+		},
+		"typeRoots": ["./src/@types", "./node_modules/@types"],
+		"esModuleInterop": true,
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"moduleResolution": "node",
+		"allowJs": true
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules"]
+}

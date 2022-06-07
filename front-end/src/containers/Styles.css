@@ -1,0 +1,45 @@
+.dev{
+    background-image: "../assets/images/logo3.png";
+}
+.logoBrand {
+	height: 2rem;
+	width: 5rem;
+	background-image: url("../assets/images/click.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-style: hidden;
+}
+
+.btn-menu-dashboard{
+   background-color: transparent  !important;
+   max-width: 3rem !important;
+   max-height: 3rem !important;
+   border-color: transparent;
+}
+
+.btn-menu-dashboard:hover{
+    color: #ffffff;
+}
+
+.buscar{
+    background-color: #212529;
+    border: 1px solid #ffc107;
+    color: #ffffff;
+}
+
+.buscar:focus{
+    background-color: #212529;
+    border-color: #ffc107;
+    box-shadow: none;
+    color: #ffffff;
+}
+
+.avatar-usr{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 10px;
+    border-radius: 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
